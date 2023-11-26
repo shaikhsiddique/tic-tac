@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+       <p> TIC-TAC-TOE</p>
+    </nav>
+    <div class="body">
+        <div class="game-container">
+            <div class="box bt-0 bf-0 " id="a" onclick="print(a,b1);"><span class="boxtext" id="1"></span>
+            </div>
+            <div class="box bt-0" id="b" onclick="print(b,b2);"><span class="boxtext" id="2"></span></div>
+            <div class="box bt-0 br-0" id="c"  onclick="print(c,b3);"><span class="boxtext" id="3"></span></div>
+            <div class="box bf-0" id="d" onclick="print(d,b4);"><span class="boxtext" id="4"></span></div>
+            <div class="box" id="e" onclick="print(e,b5);"><span class="boxtext" id="5"></span></div>
+            <div class="box br-0" id="f" onclick="print(f,b6);" ><span class="boxtext" id="6"></span></div>
+            <div class="box bf-0 bb-0" id="g" onclick="print(g,b7);"><span class="boxtext" id="7"></span></div>
+            <div class="box bb-0" id="h" onclick="print(h,b8);"><span class="boxtext" id="8"></span></div>
+            <div class="box bb-0 br-0" id="i" onclick="print(i,b9);"><span class="boxtext" id="9"></span></div>
+        </div>
+        <div class="game-info">
+            <div class="info">
+                <p class="heading">Welcome to my TIC-Tac-Toe  <button id="reset" onclick="reset();">RESET</button></p>
+                <p class="turn" id="whose-turn">x turn</p>
+               
+            </div>
+            <div class="gif-container">
+            <img src="excited.gif" class="gif gif-hide" id="gif"     alt="">
+            </div>
+           
+    </div>
+   
+</body>
+<script src="script.js"></script>
+</html>
